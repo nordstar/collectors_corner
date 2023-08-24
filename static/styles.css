@@ -1,0 +1,13 @@
+
+body {
+   font-family: verdana;
+   min-height: 100%;
+   position: relative;
+   padding-bottom: 200px;
+   margin: 0;
+ }
+ 
+ form {
+   display: flex;
+   flex-direction: column;
+ }
