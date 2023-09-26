@@ -26,6 +26,11 @@ const ToyLine = conn.define("toyLine", {
  production_year: {
    type: INTEGER,
  },
+ imageUrl: {
+   type: STRING,
+   defaultValue:
+     "https://cdn-icons-png.flaticon.com/512/1434/1434202.png",
+ },
 });
 
 module.exports = ToyLine;

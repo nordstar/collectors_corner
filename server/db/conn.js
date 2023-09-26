@@ -8,7 +8,7 @@ if (process.env.QUIET) {
   config.logging = false;
 }
 const conn = new Sequelize(
-  process.env.DATABASE_URL || "postgres://localhost:5433/stackathon.db",
+  process.env.DATABASE_URL || "postgres://localhost:5433/stackathon",
   config
 );
 
